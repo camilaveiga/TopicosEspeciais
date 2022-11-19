@@ -33,7 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  padding: 55px;
   border-radius: 5%;
 }
 
@@ -42,6 +42,7 @@ body {
   font-size: 32px;
   color: #561f73;
   flex: none;
+  text-align: center;
 }
 
 input {
@@ -51,4 +52,10 @@ input {
 .btn-primary{
   background-color: #6E2594 !important;
   width: 500px;
+}
+
+.link-primary{
+  color: #561f73 !important;
+  text-align: right !important;
+  margin-right: 2%;
 }
