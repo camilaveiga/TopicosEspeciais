@@ -29,18 +29,12 @@
     vertical-align: middle
   }
 
-  input {
-    width: 40% !important;
-    height: 28px;
-    margin-left: 50%;
-    border-radius: 5px;
-  }
 
   .imgPerfil {
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    margin-left: -220px;
+    margin-left: -400px;
   }
 
   .btn-secondary{
@@ -50,14 +44,28 @@
     color: #000000 !important;
   }
 
-  .caixaMenu{
-    margin: 10%
+  .caixaFormulario{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
   }
 
   .card-body{
     width: 100%;
     background-color: #e4e4e4 !important;
     height: 20% !important;
+  }
+
+
+  .form-control{
+    width: 100% !important;
+    height: 40px;
+  }
+
+  .btn-primary{
+    background-color: #6E2594 !important;
+    width: 200px;
   }
   .inputPesquisa {
     width: 200%;
