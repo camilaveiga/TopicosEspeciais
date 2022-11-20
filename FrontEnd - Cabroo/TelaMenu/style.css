@@ -17,6 +17,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
   }
   
   .title{
@@ -25,11 +26,12 @@
     font-size: 20px;
     line-height: 28px;
     font-style: italic;
+    vertical-align: middle
   }
 
   input {
-    width: 30% !important;
-    height: 30px;
+    width: 40% !important;
+    height: 28px;
     margin-left: 50%;
     border-radius: 5px;
   }
@@ -38,7 +40,7 @@
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    margin-left: -270px;
+    margin-left: -220px;
   }
 
   .btn-secondary{
@@ -47,4 +49,13 @@
     outline: none;
     color: #000000 !important;
   }
-  
+
+  .caixaMenu{
+    margin: 10%
+  }
+
+  .card-body{
+    width: 100%;
+    background-color: #e4e4e4 !important;
+    height: 20% !important;
+  }
