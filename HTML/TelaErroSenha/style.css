@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+  
+  }
+  
+  .header {
+    background: #A963FF;
+    padding: 5px 30px 5px;
+    color: #fff;
+  }
+  
+  .title {
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 28px;
+    font-style: italic;
+  }
+
+  .caixaTexto{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #caixaTitulo{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #561f73;
+    flex: none;
+    text-align: Left;
+  }
+
+  .form-control{
+    width: 100%;
+  }
+
+  .btn-primary{
+    background-color: #6E2594 !important;
+    width: 200px;
+  }
+
+  .btn-secondary{
+    background-color: #b3b3b3 !important;
+    width: 200px;
+  }
+
+  .btn-caixa{
+    display: flex;
+    justify-content: space-between;
+  }

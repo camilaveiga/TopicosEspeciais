@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.header {
+  background: #A963FF;
+  padding: 5px 30px 5px;
+  color: #fff;
+}
+
+.title {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 28px;
+  font-style: italic;
+}
+
+#caixaLogin {
+  background-color: #977cb9bb;
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 55px;
+  border-radius: 5%;
+}
+
+#caixaTituloLogin {
+  font-weight: 500;
+  font-size: 32px;
+  color: #561f73;
+  flex: none;
+  text-align: center;
+}
+
+input {
+  width: 98% !important;
+}
+
+.btn-primary{
+  background-color: #6E2594 !important;
+  width: 98%;
+}
+
+.link-primary{
+  color: #561f73 !important;
+  text-align: right !important;
+  margin-right: 2%;
+}
