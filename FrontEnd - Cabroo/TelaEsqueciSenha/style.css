@@ -4,24 +4,28 @@
     box-sizing: border-box;
   }
   
-  body {
-    width: 100vw;
-    height: 100vh;
-  
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-left: 5%;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
   }
   
-  .header {
-    background: #A963FF;
-    padding: 5px 30px 5px;
+  .logo:hover {
+    opacity: 0.5;
     color: #fff;
   }
   
-  .title {
-    font-family: "Open Sans", sans-serif;
-    color: #ffffff;
-    font-size: 20px;
-    line-height: 28px;
-    font-style: italic;
+  nav {
+    display: flex;
+    justify-content: start;
+    background: #A963FF;
+    height: 5vh;
   }
 
   .caixaTexto{

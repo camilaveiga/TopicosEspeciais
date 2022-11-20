@@ -9,11 +9,11 @@
 </head>
 
 <body>
-    <header class="header">
-        <h1 class="title">CABROO</h1>
-        <input type="text" class="form-control" placeholder=" Pesquisar...">
-        <p>Bruno William de Souza Camargo</p>
-        <img class="imgPerfil" src="perfil.png">
+    <header>
+        <nav>
+            <a class="logo" href="../TelaMenu/index.html">CABROO</a>
+            
+        </nav>
     </header>
     <div class="caixaMenu">
         <h4>Selecione a opção:</h4>
@@ -24,33 +24,33 @@
                     <button onclick=TelaAlunos() class="card-body card">LISTAR ALUNOS CADASTRADOS</button>
                 </div>
             </div>
-        <div class="col">
             <div class="col">
-                <button onclick=TelaCadastroAluno() class="card-body card">CADASTRAR ALUNO</button>
+                <div class="col">
+                    <button onclick=TelaCadastroAluno() class="card-body card">CADASTRAR ALUNO</button>
+                </div>
             </div>
-        </div>
-        <div class="col">
             <div class="col">
-                <button onclick=TelaCadastroPais() class="card-body card">CADASTRAR PAI</button>   
+                <div class="col">
+                    <button onclick=TelaCadastroPais() class="card-body card">CADASTRAR PAI</button>
+                </div>
             </div>
-        </div>
-        <div class="col">
             <div class="col">
-                <button class="card-body card">SECRETARIA</button>
+                <div class="col">
+                    <button class="card-body card">SECRETARIA</button>
+                </div>
             </div>
-        </div>
-        <div class="col">
             <div class="col">
-                <button class="card-body card">BOLETOS</button>
+                <div class="col">
+                    <button class="card-body card">BOLETOS</button>
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                    <button onclick=TelaSobre() class="card-body card">SOBRE O CABROO</button>
+                </div>
             </div>
         </div>
-        <div class="col">
-            <div>
-                <button onclick=TelaSobre() class="card-body card">SOBRE O CABROO</button>
-            </div>
-        </div>
-    </div>
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>

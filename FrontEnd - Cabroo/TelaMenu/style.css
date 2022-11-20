@@ -10,44 +10,28 @@
   
   }
   
-  .header {
-    background: #A963FF;
-    padding: 5px 30px 0px;
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-left: 5%;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
     color: #fff;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
+    text-decoration: none;
+    transition: 0.3s;
   }
   
-  .title{
-    font-family: "Open Sans", sans-serif;
-    color: #ffffff;
-    font-size: 20px;
-    line-height: 28px;
-    font-style: italic;
-    vertical-align: middle
+  .logo:hover {
+    opacity: 0.5;
+    color: #fff;
   }
-
-  input {
-    width: 40% !important;
-    height: 28px;
-    margin-left: 50%;
-    border-radius: 5px;
-  }
-
-  .imgPerfil {
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    margin-left: -220px;
-  }
-
-  .btn-secondary{
-    background-color: #d7d7d7 !important;
-    border-radius: 0px !important;
-    outline: none;
-    color: #000000 !important;
+  
+  nav {
+    display: flex;
+    justify-content: start;
+    background: #A963FF;
+    height: 5vh;
   }
 
   .caixaMenu{
