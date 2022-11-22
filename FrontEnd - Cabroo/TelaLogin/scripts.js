@@ -1,5 +1,11 @@
-var btn = document.querySelector(".btn-primary");
+function logar() {
+    const email = document.getElementById("email").value;
+    const senha = document.getElementById("password").value;
 
-function Login() {
-    window.location.href = "../TelaMenu/index.html"
+    const obj = {
+        email: email,
+        senha: senha
+    }
+
+    postData("url", obj)
 }

@@ -16,22 +16,23 @@
         <h3 id="caixaTituloLogin">LOGIN</h3>
         <label>Email:</label>
         <div class="form-floating mb-3">
-            <input type="email" name="emial" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+            <input id="email" type="email" class="form-control" placeholder="name@example.com"
+                required>
             <label for="floatingInput">Email Institucional</label>
-          </div>
-          <label>Senha:</label>
+        </div>
+        <label>Senha:</label>
         <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <input id="password" type="password" class="form-control"  placeholder="Password">
             <label for="floatingPassword">Senha</label>
         </div>
         <br>
         <div>
-            <a href="../TelaMenu/index.html">
-                <button class="btn btn-primary" type="subimit">Entrar</button>
-            </a>
+            <button class="btn btn-primary" type="submit" onclick=logar()>Entrar</button>
         </div>
         <a href="../TelaEsqueciSenha/index.html" class="link-primary">Esqueci a senha</a>
     </div>
+
+    <script src="scripts.js" defer></script>
 </body>
 
 </html>
